@@ -7,8 +7,8 @@ const userSchema=new mongoose.Schema({
     age:{type:Number},
     role:{
         type:String,
-        enum:["guests","employee","hr"],
-        default:"guests"
+        enum:["user","writer","admin"],
+        default:"user"
     }
     
 
